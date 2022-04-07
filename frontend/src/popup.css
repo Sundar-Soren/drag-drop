@@ -1,0 +1,40 @@
+.conatiner{
+    background-color: #00000096;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.inpu{
+    display: flex;
+    flex-direction: column;
+}
+.popup{
+    background-color: aliceblue;
+    max-width:20rem ;
+    height: max-content;
+    padding: 1rem;
+}
+
+.popup form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.addon{
+    display: flex;
+    justify-content: end;
+}
+.addbtn{
+    font-size: 1rem;
+    padding: .3rem 1.5rem;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

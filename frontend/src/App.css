@@ -1,0 +1,90 @@
+.app_container{
+  background-color: blanchedalmond;
+  padding: .4rem;
+
+}
+.alphabets{
+  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+  flex-wrap: wrap
+}
+.alphabet{
+  height: 10rem;
+  width: 10rem;
+  background-color: #5ef85e;
+  text-align: center;
+  cursor: move;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+}
+.alphabetdas{
+  height: 10rem;
+  width: 10rem;
+  background-color: #5ef85e;
+  text-align: center;
+  cursor: move;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  position: relative;
+}
+.icon{
+  position: absolute;
+  top: 5px;
+  right: 2px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.drop{
+  padding: 7px;
+  min-height: 10rem;
+  background-color: #a3a09c;
+  border: 6px dashed black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.operaotbtns{
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+.opeBTN{
+  font-size: 1.2rem;
+  background-color: #ff9100;
+  height: 4rem;
+  padding: 0;
+  text-align: center;
+  width: 8rem;
+  margin: auto 0;
+  position: relative;
+  cursor: move;
+}
+.fjhsdfj{
+  cursor: pointer;
+}
+
+.btnEva{
+  display: flex;
+  margin: 2rem 0;
+}
+.evaluteBTN{
+  font-size: 1.1rem;
+  width: 80%;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: .5rem ;
+}
+.addVa{
+  height: 10rem;
+  background-color: fuchsia;
+  width: 10rem;
+  display: grid;
+  place-items: center;
+cursor: pointer;
+}
+.newVariable{
+  font-size: .7rem;
+  padding: 0;
+}
